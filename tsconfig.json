@@ -5,6 +5,7 @@
     "rootDir": "./",
     "jsx": "react",
     "module": "es2015",
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "pretty": true,

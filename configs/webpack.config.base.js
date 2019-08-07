@@ -40,6 +40,9 @@ export default {
    * Determine the array of extensions that should be used to resolve modules.
    */
   resolve: {
+    alias: {
+      moment: 'dayjs',
+    },
     extensions: ['.js', '.ts', '.tsx', '.json'],
   },
 
